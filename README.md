@@ -22,6 +22,10 @@ customGPT actions also requires openAPI specifications to operate , thankfully *
 
 :brazil:
 
+## CustomGPTs com APIs do AWS lambda
+
+# sobre o projeto
+
 Este projeto é para a implementação da API das ferramentas para um **customGPT focado em ajudar estudantes brasileiros a se prepararem para o exame nacional do ensino médio (ENEM)** através de estudo ativo e resolução de questões.
 
 O **chatbot está disponível para usuários premium da OpenAI** [aqui](https://chat.openai.com/g/g-lTKGDJhnR-professor-particular-para-o-enem).
