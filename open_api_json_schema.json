@@ -1,0 +1,45 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+      "title": "procura questao enem",
+      "description": "Faz uma busca pela questão do ENEM mais similar à requisitada pelo user.",
+      "version": "v1.0.0"
+    },
+    "servers": [
+      {
+        "url": ""
+      }
+    ],
+    "paths": {
+      "/search": {
+        "get": {
+          "description": "Busca a questao do enem mais similar a requisitada pelo usuário",
+          "operationId": "BuscaQuestao",
+          "parameters": [ 
+            {
+              "name": "questao",
+              "in": "query",
+              "description": "a questao e/ou a sua descricao como descrita pelo usuario",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "numero_questoes",
+              "in": "query",
+              "description": "quantas questões o usuário pediu",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "deprecated": false
+        }
+      }
+    },
+    "components": {
+      "schemas": {}
+    }
+  }
